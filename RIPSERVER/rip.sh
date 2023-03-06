@@ -1,3 +1,17 @@
+# RIPPING AL PAGES WITH HTTRACK
+#-----------
+# INSTALL APACHE AND HTTRACK ON UBUNTUN 22.04 
+#------------
+# sudo apt update
+# sudo apt install apache2
+# sudo ufw app list
+# sudo ufw allow 'Apache'
+# sudo ufw status
+
+# sudo apt-get install httrack webhttrack
+# sudo apt-get install python3-bs4
+
+
 #rm /var/www/html/index.html
 
 mkdir -p /var/www/html/ram
@@ -15,7 +29,6 @@ mkdir -p /var/www/html/boogschutter
 mkdir -p /var/www/html/steenbok
 mkdir -p /var/www/html/waterman
 mkdir -p /var/www/html/vissen
-
 
 httrack https://www.horoscoop.nl/sterrenbeeld/ram/ --path "ram" --verbose -y
 httrack https://www.horoscoop.nl/sterrenbeeld/stier/ --path "stier" --verbose
