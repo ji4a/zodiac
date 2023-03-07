@@ -1,7 +1,7 @@
 # RIPPING AL PAGES WITH HTTRACK
-#-----------
+# --------------------------- #
 # INSTALL APACHE AND HTTRACK ON UBUNTUN 22.04 
-#------------
+# ----------------------------------------- #
 # sudo apt update
 # sudo apt install apache2
 # sudo ufw app list
