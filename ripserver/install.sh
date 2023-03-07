@@ -3,10 +3,10 @@
 # --------------------------------------------------------------- #
 
  sudo apt update
- sudo apt install apache2
+ sudo apt install apache2 -y
  sudo ufw app list
  sudo ufw allow 'Apache'
  sudo ufw status
 
- sudo apt-get install httrack webhttrack
- sudo apt-get install python3-bs4
+ sudo apt-get install httrack webhttrack -y
+ sudo apt-get install python3-bs4 -y
