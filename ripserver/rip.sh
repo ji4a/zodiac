@@ -19,18 +19,18 @@ mkdir -p /var/www/html/steenbok
 mkdir -p /var/www/html/waterman
 mkdir -p /var/www/html/vissen
 
-httrack https://www.horoscoop.nl/sterrenbeeld/ram/ --path "ram" --verbose -y
-httrack https://www.horoscoop.nl/sterrenbeeld/stier/ --path "stier" --verbose
-httrack https://www.horoscoop.nl/sterrenbeeld/tweelingen/ --path "tweelingen" --verbose
+httrack https://www.horoscoop.nl/sterrenbeeld/ram/ --path "ram" --verbose -i
+httrack https://www.horoscoop.nl/sterrenbeeld/stier/ --path "stier" --verbose -i
+httrack https://www.horoscoop.nl/sterrenbeeld/tweelingen/ --path "tweelingen" --verbose -i
 
-httrack https://www.horoscoop.nl/sterrenbeeld/kreeft/ --path "kreeft" --verbose
-httrack https://www.horoscoop.nl/sterrenbeeld/leeuw/ --path "leeuw" --verbose
-httrack https://www.horoscoop.nl/sterrenbeeld/maagd/ --path "maagd" --verbose
+httrack https://www.horoscoop.nl/sterrenbeeld/kreeft/ --path "kreeft" --verbose -i
+httrack https://www.horoscoop.nl/sterrenbeeld/leeuw/ --path "leeuw" --verbose -i
+httrack https://www.horoscoop.nl/sterrenbeeld/maagd/ --path "maagd" --verbose -i
 
-httrack https://www.horoscoop.nl/sterrenbeeld/weegschaal/ --path "weegschaal" --verbose
-httrack https://www.horoscoop.nl/sterrenbeeld/schorpioen/ --path "schorpioen" --verbose
-httrack https://www.horoscoop.nl/sterrenbeeld/boogschutter/ --path "boogschutter" --verbose
+httrack https://www.horoscoop.nl/sterrenbeeld/weegschaal/ --path "weegschaal" --verbose -i
+httrack https://www.horoscoop.nl/sterrenbeeld/schorpioen/ --path "schorpioen" --verbose -i
+httrack https://www.horoscoop.nl/sterrenbeeld/boogschutter/ --path "boogschutter" --verbose -i
 
-httrack https://www.horoscoop.nl/sterrenbeeld/steenbok/ --path "steenbok" --verbose
-httrack https://www.horoscoop.nl/sterrenbeeld/waterman/ --path "waterman" --verbose
-httrack https://www.horoscoop.nl/sterrenbeeld/vissen/ --path "vissen" --verbose
+httrack https://www.horoscoop.nl/sterrenbeeld/steenbok/ --path "steenbok" --verbose -i
+httrack https://www.horoscoop.nl/sterrenbeeld/waterman/ --path "waterman" --verbose -i
+httrack https://www.horoscoop.nl/sterrenbeeld/vissen/ --path "vissen" --verbose -i
