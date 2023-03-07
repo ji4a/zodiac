@@ -113,7 +113,7 @@ while(!$file_vissen->eof())
     $sth->bindValue(9,$boogschutter,PDO::PARAM_STR);
     $sth->bindValue(10,$steenbok,PDO::PARAM_STR);
     $sth->bindValue(11,$waterman,PDO::PARAM_STR);
-    $sth->bindValue(12,$waterman,PDO::PARAM_STR);
+    $sth->bindValue(12,$vissen,PDO::PARAM_STR);
 
     $sth->execute();
 }
