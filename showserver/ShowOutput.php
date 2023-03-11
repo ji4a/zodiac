@@ -1,4 +1,4 @@
-<?php 
+<?php
 $servername = "localhost";
 $username = "admin_zodiac";
 $password = "vFlJU4PSrK";
@@ -9,7 +9,7 @@ try {
     $conn = new PDO("mysql:host=$servername;dbname=$database", $username, $password);
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); // set the PDO error mode to exception
     // echo "Connected Successfully";
-    
+
 } catch(PDOException $e) {
 
     echo "Connection Failed" .$e->getMessage();
@@ -24,19 +24,19 @@ try {
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <title>BOOGSCHUTTER</title>
+    <title>KREEFT</title>
   </head>
   <body>
-    
+
     <div class="container">
         <div class="row">
             <div class="col-md-12 mt-4">
-             
+
                     <div class="card-body">
                         <table class="table table-bordered table-striped">
                             <thead>
                                 <tr>
-                                    <th>BOOGSCHUTTER</th>
+                                    <th><button onclick="history.back()" type="button" class="btn btn-dark"><-</button> KREEFT</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -53,7 +53,7 @@ try {
                                         {
                                             ?>
                                             <tr>
-                                                <td><?= $row->boogschutter; ?></td>
+                                                <td><?= $row->kreeft; ?></td>
                                             </tr>
                                             <?php
                                         }
@@ -70,7 +70,7 @@ try {
                             </tbody>
                         </table>
                     </div>
-             
+
             </div>
         </div>
     </div>
